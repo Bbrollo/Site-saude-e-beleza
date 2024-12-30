@@ -161,6 +161,25 @@ p{
     padding: 2px;
 }
 
+/*Flexbox*/
+.grid-equipe{
+    background-color: var(--branco);
+}
+.grid-equipe-sb{
+    display: flex; /*Alterando o tipo de display para flex*/
+    justify-content: center; /*Alinhamento horizontal, centralização*/
+    align-items: center; /*Alinhamento vertical, centralização*/
+    flex-wrap: wrap; /*Alinhar ou quebrar conforme tamanho da tela*/
+    max-width: 1024px;
+    margin: auto;
+    gap: 8px;
+    padding: auto;
+}
+.grid div{
+    background-color: var(--branco);
+    text-align: center;
+    padding: 2px;
+}
 /*Grid mobile*/
 @media(min-width: 320px) and (max-width: 1024px){
     .grid-conteudo{
