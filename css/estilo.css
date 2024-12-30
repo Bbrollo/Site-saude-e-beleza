@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Kaushan+Script&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 
 :root{ /*Possível salvar variaveis*/
     --preto: rgb(0, 0, 0);
@@ -20,8 +20,11 @@
 }
 
 html{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Ubuntu", serif;
     font-size: 1em;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 1px;
 }
 
 header{
@@ -115,6 +118,7 @@ h3{
 h4{
     font-size: 1.2em ;
     text-shadow: 2px 2px 2px var(--preto);
+    font-family: "Ubuntu", serif;;
 }
 h1,h2,h3,h4,h5,h6{ 
     padding-top: 0.5%;
@@ -129,8 +133,8 @@ img{
 
 /*Configs de paragrafos*/
 p{
-    padding-top: 1%;
-    padding-bottom: 1%;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 /*Paragrafos mobile*/
 @media(min-width: 320px) and (max-width: 820px){
